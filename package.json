@@ -1,0 +1,19 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "elon": "node server.js && ffmpeg -loglevel quiet -i elon.mp3 -y elon.wav && chuck --dac6 patch.ck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.843.0",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "needle": "^2.6.0"
+  }
+}
